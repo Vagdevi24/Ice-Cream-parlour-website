@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            delete the CART</title>
+
+        <script>
+            // Get the delete buttons
+const deleteButtons = document.querySelectorAll('.delete-button');
+
+// Attach a click event listener to each delete button
+deleteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Get the parent li element of the delete button
+    const parentLi = button.parentElement;
+
+    // Remove the parent li element from the cart items list
+    parentLi.remove();
+
+    // Update the cart total
+    updateCartTotal();
+  });
+});
+
+// Function to update the cart total
+function updateCartTotal() {
+  // Get the cart items list
+  const cartItems = document.querySelectorAll('.cart-item');
+
+  // Initialize the total price to 0
+  let totalPrice = 0;
+
+  // Loop through each cart item and add up the prices
+  cartItems.forEach(item => {
+    const priceElement = item.querySelector('.price');
+    const price = parseFloat(priceElement.innerText.replace('$', ''));
+    totalPrice += price;
+  });
+
+  // Update the cart total element with the new total price
+  const cartTotal = document.querySelector('#cart-total');
+  cartTotal.innerText = '$' + totalPrice.toFixed(2);
+}
+
+     </script>
+     </head>
+</html>

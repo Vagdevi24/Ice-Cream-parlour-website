@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    color:black;
+    
+     
+    
+   
+    
+}
+ .box{
+    height:30px ;
+    display: flex;
+    cursor: pointer;
+    padding:10px 20px ;
+    background: #fff;
+    border-radius: 30px;
+    align-items:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3) ;
+}
+.box:hover input{
+    width:400px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  header {
+    background-color: #d11b2e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #d11b2e;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
+  }
+  h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  section {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .product img {
+    height: 200px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  .product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .product span {
+    font-size: 1.2em;
+    color: #777;
+  }
+  

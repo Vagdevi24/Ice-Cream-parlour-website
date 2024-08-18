@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://trumpwallpapers.com/wp-content/uploads/Ice-Cream-Wallpaper-43-1920x1080-1-1536x864.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:#F2F2F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table td, table th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color:#333;
+  }
+
+  table th {
+    background-color: #F5F5F5;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .total {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .total span {
+    color: #333;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F25C05;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #F59348;
+  }
+  
